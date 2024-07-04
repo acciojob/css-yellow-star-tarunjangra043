@@ -4,36 +4,38 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #03ff46;
+    background-color: #f0f0f0;
 }
 
 .star {
-    /* position: relative; */
-    display: inline-block;
+    position: relative;
+    display: block;
     color: yellow;
-    width: 0px;
-    height: 0px;
-    border-right: 50px solid transparent;
-    border-bottom: 35px solid yellow;
-    border-left: 50px solid transparent;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
     transform: rotate(35deg);
 }
 
 .star:before, .star:after {
     content: '';
     position: absolute;
-    top: 0px;
-    left: -50px;
-    width: 0px;
-    height: 0px;
-    border-right: 50px solid transparent;
-    border-bottom: 35px solid yellow;
-    border-left: 50px solid transparent;
+    top: 0;
+    left: -100px;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid yellow;
+    border-left: 100px solid transparent;
+}
+
+.star:before {
     transform: rotate(-70deg);
 }
 
 .star:after {
-    transform: rotate(-140deg);
-    top: -5px;
-    left: -55px;
+    transform: rotate(70deg);
+    top: -70px;
 }
