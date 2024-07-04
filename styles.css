@@ -13,9 +13,9 @@ body {
     color: yellow;
     width: 0;
     height: 0;
-    border-right: 100px solid transparent;
+    border-right: 50px solid rgba(0, 0, 0, 0);
     border-bottom: 100px solid rgb(255, 255, 0);
-    border-left: 100px solid transparent;
+    border-left: 50px solid rgba(0, 0, 0, 0);
     transform: rotate(35deg);
 }
 
@@ -26,9 +26,9 @@ body {
     left: -100px;
     width: 0;
     height: 0;
-    border-right: 100px solid transparent;
+    border-right: 50px solid rgba(0, 0, 0, 0);
     border-bottom: 100px solid rgb(255, 255, 0);
-    border-left: 100px solid transparent;
+    border-left: 50px solid rgba(0, 0, 0, 0);
 }
 
 .star:before {
